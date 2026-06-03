@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Input Tag Example</title>
+        <link rel="stylesheet" href="../../CSS/Input.css">
+    </head>
+    <body>
+        <h1>Input Tag Example</h1>
+        <form>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="password">
+            <input type="button" value="show password" id="showPasswordButton"><br> <br>
+
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" name="quantity" multiple size="5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br> <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="Enter your feedback here..."></textarea><br> <br>
+
+            </textarea>
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </form>
+        <form>
+            <label for="Course">Course:</label>
+            <input type="text" id="Course" name="Course" placeholder="Enter your course name"><br><br>
+
+            <label for="Course">Selected Courses:</label>
+            <input type="courseslist" id="course" name="course" placeholder="Selected Course" list="courseslist"><br><br>
+
+            <datalist id="courseslist">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="Python">
+                <option value="Java">
+            </datalist>
+        </form>
+    </body>
+</html>

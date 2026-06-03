@@ -1,0 +1,72 @@
+
+#example {
+    color: gray;
+    background-color: black;
+    text-align: center;
+}
+
+
+/*universal selector to apply styles to all elements on the page*/
+
+/* This CSS file is used to style the HTML page with a specific color scheme. The universal selector (*) is used to apply the specified styles to all elements on the page. The color property is set to gray, which will change the text color of all elements to gray. The background-color property is set to black, which will change the background color of all elements to black*/
+
+/*
+*{
+    color:gray;
+    background-color: black;
+}
+    */
+/*
+    body{
+        color:gray;
+        background-color: black;
+    }
+        */
+
+        /*element selector to apply styles to the body element only*/
+        
+        p{
+    color:yellow;
+    background-color: black;
+        }
+        */
+
+        /*element selector to apply styles to the div element only*/
+        /*
+        div{
+    color:gray;
+    background-color: black;
+        }
+    */
+   /*element selector to apply styles to the span element only*/
+    /*
+    span{
+    color:gray;
+    background-color: black;
+    }
+    */
+    /*class selector to apply styles to elements with the class "my-class"*/
+    /*
+    .Whatiscss{
+    color:red;
+    background-color: black;
+    text-align: center;
+    }
+    */
+    /*id selector to apply styles to the element with the id "my-id"*/
+    /*
+    #selector1{
+    color:gray;
+    background-color: black;
+    padding: 10px;
+    line-height: 1.5;
+    }
+    */
+    span{
+    color:green;
+    background-color: red;
+    }
+    .saiful{
+    color:blue;
+    background-color: yellow;
+    }
