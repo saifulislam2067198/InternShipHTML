@@ -3,6 +3,10 @@
     color: gray;
     background-color: black;
     text-align: center;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+  border-bottom: 2px solid red;
 }
 
 
@@ -28,8 +32,14 @@
         p{
     color:yellow;
     background-color: black;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 1.5;
         }
-        */
+        
 
         /*element selector to apply styles to the div element only*/
         /*
@@ -62,11 +72,19 @@
     line-height: 1.5;
     }
     */
+    /*span element with class "saiful" to apply styles to the span element with the class "saiful"*/
     span{
     color:green;
     background-color: red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+    line-height: 1.5;
     }
     .saiful{
     color:blue;
     background-color: yellow;
     }
+    

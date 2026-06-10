@@ -1,0 +1,27 @@
+.example {
+    width: 320px;
+    height: 160px;
+    border: 2px  solid rebeccapurple;
+    margin: 20px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+.overflow-visiable {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-scroll {
+    overflow: scroll;
+}
+.oveereflow-x {
+    overflow-x: scroll;
+}
+.overflow-y{
+    overflow-y: scroll;
+}
+.overflow-auto {
+    overflow: auto;
+}

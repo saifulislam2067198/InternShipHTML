@@ -1,0 +1,26 @@
+.parent{
+    background-color: aqua;
+    padding: 20px;
+}
+.parent p{
+    color: blue;
+    font-size: 25px;
+}
+.parent div{
+    background-color: red;
+   padding: 10px;
+   line-height: 1.5;
+}
+.parent div p{
+    background-color: greenyellow;
+}
+.parent div{
+background-color: blanchedalmond;
+}
+ul{
+    background-color: blue;
+}
+div p{
+    background-color: black;
+    color: red;
+}

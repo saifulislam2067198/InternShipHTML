@@ -1,0 +1,41 @@
+.valid-invalid-demo:invalid{
+background-color: aqua;
+border: 2px solid red;
+color: rgb(224, 17, 17);
+border-radius: 10px;
+}
+
+.valid-invalid-pattern:invalid{
+    background-color: pink;
+    border: 2px solid red;
+    color: green;
+    border-radius: 10px;
+}
+.required-demo:required{
+    background-color: cadetblue;
+    color: aqua;
+    border: 2px solid saddlebrown;
+}
+
+.optional-demo:optional{
+    background-color: lightyellow;
+    color: #333;
+    border: 2px solid #999;
+}
+
+/*
+.valid-invalid-demo:valid{
+background-color: aqua;
+border: 2px solid green;
+color: yellow;
+}
+*/
+h1{
+    background-color: blue;
+    box-shadow: inset;
+    border-left: 10px;
+    border-right: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    font-size: 25px;
+}

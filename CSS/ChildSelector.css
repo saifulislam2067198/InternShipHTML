@@ -1,0 +1,30 @@
+.parent >p{
+color: aqua;
+font-style: italic;
+}
+div p{
+    background: rebeccapurple;
+}
+div h1,h2{
+background-color: blue;
+}
+#announcement{
+    color: bisque;
+    text-align: center;
+    font-style: italic;
+}
+.parent>section{
+    font-size: large;
+}
+div p,h4{
+    color: burlywood;
+}
+.manue>ul{
+    list-style-type: circle;
+}
+div>ul>li{
+    color: firebrick;
+}
+.manue{
+    
+}

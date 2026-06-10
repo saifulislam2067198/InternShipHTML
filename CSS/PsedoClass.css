@@ -1,0 +1,25 @@
+.hover-button:hover{
+    background-color: red;
+    color:gray;
+    border-radius: 10px;
+}
+.hover-text:hover{
+    box-shadow: 0 0 16px#2e7d;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    border: #2e7d;
+}
+
+.active-button:active{
+    border-left: red;
+    border-right: red;
+    border-top: red;
+    border-bottom: red;
+    background-color: blue;
+    border-radius: 10px;
+}
+.active-link:active{
+    background-color: chartreuse;
+}
+
