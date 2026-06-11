@@ -22,3 +22,7 @@
     color: black;
     z-index: 2;
 }
+h2 {
+    text-transform: capitalize;
+
+}

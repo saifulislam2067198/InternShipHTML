@@ -1,0 +1,87 @@
+body {
+    border: 3px solid blueviolet;
+}
+.site-header{
+    text-transform: capitalize;
+    text-align: center;
+    background-color: green;
+    color: red;
+    border-radius: 10px;
+    padding: 0px;
+    width: 90%;
+    min-height: 5px;
+    margin: 1rem auto 0;
+    border: 3px solid gray;
+    outline: dotted;
+    outline-color: greenyellow;
+}
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 1rem auto ;
+    padding: 1rem;
+    border: 3px solid greenyellow;
+    min-width: 150px;
+    color: blue;
+    position: relative;
+    min-height: 250px;
+}
+.bg-none1{
+    background-image: none;
+}
+.bg-none2 {
+    background-image: none;
+}
+.bg-none {
+    background-image: none;
+}
+.bg-url1 {
+    background-image: url(../PHOTO/image.png);
+    text-transform: capitalize;
+}
+.bg-url2 {
+    background-image: url(../PHOTO/Deer.jpg);
+    text-transform: capitalize;
+    outline: dotted;
+    outline-color: brown;
+}
+.bg-url {
+    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    outline: double;
+    outline-style: dashed;
+}
+.bg-grad-linear {
+    background-image: linear-gradient(to right, 
+    blue,black,
+    green,
+    white,
+    yellow);
+    text-transform: capitalize;
+}
+.bg-grad-linear1 {
+    background-image: radial-gradient(circle at center,
+    blue,
+    green,yellow,
+    pink,black);
+    text-transform: capitalize;
+}
+.bg-grad-linear2 {
+    background-image: 
+    repeating-linear-gradient(45deg,
+     green 0 20px, 
+     yellow 20px 40px);
+    text-transform: capitalize;
+}
+.bg-grad-linear3 {
+    background-image: 
+    repeating-linear-gradient(45deg,
+     yellow 0 20px,
+      red 20px 25px,
+      pink 20px 25px,
+       green 25px 30px);
+    text-transform: capitalize;
+}
