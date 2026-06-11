@@ -1,0 +1,35 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: aquamarine;
+    color: gray;
+    border: 2px solid gold;
+    margin: 10px;
+    outline: darkblue;
+    outline-style: dotted;
+}
+.site-header {
+    background-color: rebeccapurple;
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+.grid-section  {
+    margin-bottom: 40px;
+}
+.gird-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+.grid-item {
+    background-color: rebeccapurple;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}

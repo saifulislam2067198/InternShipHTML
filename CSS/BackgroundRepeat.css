@@ -1,0 +1,25 @@
+body {
+    background-color: whitesmoke;
+    border: 3px solid red;
+    margin: 10px;
+}
+.site-header {
+    background-color: goldenrod;
+    margin: 10px;
+    border: 10px solid yellow;
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.container{
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    min-height: 150px;
+    color: green;
+    position: relative;
+    max-width: 700px;
+    width:90%;
+}
+

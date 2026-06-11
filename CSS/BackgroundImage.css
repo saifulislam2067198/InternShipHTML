@@ -55,11 +55,7 @@ body {
     outline-style: dashed;
 }
 .bg-grad-linear {
-    background-image: linear-gradient(to right, 
-    blue,black,
-    green,
-    white,
-    yellow);
+    background-image: url(https://images.pexels.com/photos/14781563/pexels-photo-14781563.jpeg?cs=srgb&dl=pexels-bilal-andirin-297236016-14781563.jpg&fm=jpg);
     text-transform: capitalize;
 }
 .bg-grad-linear1 {
@@ -84,4 +80,7 @@ body {
       pink 20px 25px,
        green 25px 30px);
     text-transform: capitalize;
+}
+.bg-grad-linear4 {
+    background-image: url(https://images.pexels.com/photos/14781563/pexels-photo-14781563.jpeg?cs=srgb&dl=pexels-bilal-andirin-297236016-14781563.jpg&fm=jpg);
 }
