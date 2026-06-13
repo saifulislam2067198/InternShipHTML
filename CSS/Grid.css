@@ -25,6 +25,7 @@ body {
     color: white;
     box-sizing: border-box;
     border: 2px solid white;
+    min-width: 700px;
 }
 .grid-item {
     background-color: rebeccapurple;

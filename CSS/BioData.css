@@ -1,0 +1,119 @@
+body{
+    background-color: blanchedalmond;
+    border-top: 3px solid;
+   border-right: 3px solid;
+   border-bottom: 3px solid;
+   border-left: 3px solid;
+   padding: 5px;
+}
+.resume{
+    padding-top: -300px;
+    font-size: 25px;
+    background-color: aqua;
+    padding: 11px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+
+}
+.picture img {
+    border:1px solid black;   
+    text-align: end;
+    border: 3px solid black;
+    border-radius: 100px;
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    background-size: contain;
+    background-image: url(SAIFULISLAMBOI.css);
+    background-position: center;
+
+             
+}
+.picture{
+    text-align: end;
+    padding-right: 20px;
+}
+.mainpoint{
+    margin-top: -100px;
+    position: absolute;
+    top: 200px;
+
+}
+.career{
+    font-size: 20px;
+    margin-top: -10px;
+    background-color: aqua;
+    padding: 11px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+
+}
+.paragraph1{
+    border-top: 2px solid;
+   border-right: 2px solid;
+   border-bottom: 2px solid;
+   border-left: 2px solid;
+   padding-left: 3px;
+
+}
+.acadeic{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 11px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+    margin-top: -200px;
+}
+#BCA{
+    text-align: center;
+}
+#higher{
+    text-align: center;
+}
+.ten{text-align: center;}
+.skills{
+
+    font-size: 20px;
+    background-color: aqua;
+    padding: 11px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+.SKILL{
+     border-top: 2px solid;
+   border-right: 2px solid;
+   border-bottom: 2px solid;
+   border-left: 2px solid;
+   padding-left:px;
+}
+.person{
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: -80px;
+}
+.details{
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+
+}
+.declaration{
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: center;
+}
+.DDD{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    padding: 3px;
+}
