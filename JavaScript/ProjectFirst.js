@@ -27,4 +27,4 @@ function calculate(operator = '+') {
   }
 
   resultField.value = result;
-}
+}b
