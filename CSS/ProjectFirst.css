@@ -1,0 +1,45 @@
+
+.calculator {
+  margin: 50px auto;
+  text-align: center;
+  background-color: rebeccapurple;
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  animation: borderBlink 1s infinite;
+  
+  outline-color: darkblue;
+  outline-style: dotted;
+  width: 50%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  width: 50%;
+  background-color: aqua;
+  border: 3px solid gold;
+
+
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: 3px solid;
+  cursor: pointer;
+  
+
+button:hover {
+  background-color: red;
+}
+
+@keyframes borderBlink {
+  0%, 100% {
+    border-color: greenyellow;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
